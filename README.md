@@ -5,6 +5,6 @@
 
 More details can be refereed to [IEEE33-node system](IEEE33-node-system.md).
 
-## Other Data Description
-- Daily power demand of different types of loads
-- Node load recovery priority factor
+## [Other Data Description](other-data-description.md)
+- **Table 1**: Daily power demand of different types of loads
+- **Table 2**: Node load recovery priority factor
