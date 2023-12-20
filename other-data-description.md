@@ -68,8 +68,7 @@
 | 3  | 550               |
 | 4  | 750               |
 ## Table 2: IEEE33  Two  different times load
-| node number | node load | node load |
-|             |    13.00  |    19.00  |
+| node number |   13.00   |   19.00   |
 |-------------|-----------|-----------|
 | 1           | 100       | 100       |
 | 2           | 90        | 90        |
