@@ -20,6 +20,6 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 
 ### Island division result at time period 19:00 
 
-### Fault recovery result at time period 13:00 
+### Fault recovery scheme at time period 13:00 
 
-### Fault recovery result at time period 19:00 
+### Fault recovery scheme at time period 19:00 
