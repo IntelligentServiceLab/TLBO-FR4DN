@@ -1,3 +1,4 @@
+
 ## Table 1: Daily power demand of different types of loads
 | Time   | Government and Medical Load | Resident Load | Business Load |
 |--------|--------------|---------|---------|
