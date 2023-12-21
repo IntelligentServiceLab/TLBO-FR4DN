@@ -5,6 +5,7 @@
 ------
 
 ##  <span id="Table-1">Table 1: IEEE33  node  data</span> 
+
 | Branch No. | Sending Node |Receiving Node | Impedance   | Reactance	   | Rated Load (Active) | Rated Load (Reactive) |
 | -------- | -------- | -------- | ------ | ------ | ---------------- | ---------------- |
 | 1        | 1        | 2        | 0.0922 | 0.047  | 100              | 60               |
@@ -46,6 +47,7 @@
 | 37       | 25       | 29       | 0.5    | 0.5    | -1               | -1               |
 
 ##  <span id="Table-1">Table 2: IEEE33  node  voltage</span> 
+
 | Node | Real Part of Voltage (per unit) | Imaginary Part of Voltage (per unit) |
 | ---- | ------------------------------ | ------------------------------------ |
 | 0    | 1.0000                         | 0                                    |
@@ -83,6 +85,7 @@
 | 32   | 0.9037                         | -0.0447                              |
 
 ##  <span id="Table-1">Table 3: IEEE33  node  load</span> 
+
 | node number | node load | node load |
 |-------------|-----------|-----------|
 | 1           | 100       | 100       |
