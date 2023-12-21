@@ -1,7 +1,7 @@
 - [**Table 1: Daily power demand of different types of loads**](#Table-1)
-- [**Table 2: Node load recovery priority factor**](#Table 2)
-- [**Table 3: Distributed DG Power**](#Table 3)
-- [**Table 4: Node load at 13:00 and 19:00**](#Table 4)
+- [**Table 2: Node load recovery priority factor**](#Table-2)
+- [**Table 3: Distributed DG Power**](#Table-3)
+- [**Table 4: Node load at 13:00 and 19:00**](#Table-4)
   
 ------
 
@@ -33,7 +33,7 @@
 | 23:00  | 0.35         | 0.56    | 0.35    |
 | 24:00  | 0.35         | 0.54    | 0.18    |
 
-##  <span id="Table 2">Table 2: Node load recovery priority factor</span> 
+##  <span id="Table-2">Table 2: Node load recovery priority factor</span> 
 | Node Number | 13:00 | 19:00 |
 |-------------|-------|-------|
 | 1           | 1.74  | 7.4   |
@@ -69,7 +69,7 @@
 | 31          | 920   | 700.54|
 | 32          | 1.74  | 7.4   |
 
-##  <span id="Table 3">Table 3: Distributed DG power</span> 
+##  <span id="Table-3">Table 3: Distributed DG power</span> 
 | DG | Output Power (kW) |
 | -- | ----------------- |
 | 1  | 400               |
@@ -77,7 +77,7 @@
 | 3  | 550               |
 | 4  | 750               |
 
-##  <span id="Table 4">Table 4: Node load at 13:00 and 19:00</span> 
+##  <span id="Table-4">Table 4: Node load at 13:00 and 19:00</span> 
 | Node Number |   13.00   |   19.00   |
 |-------------|-----------|-----------|
 | 1           | 100       | 100       |
