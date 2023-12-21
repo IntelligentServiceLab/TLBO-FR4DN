@@ -1,4 +1,5 @@
-# TLBO-FR4DN: Teaching Learning Based Optimization Algorithm for Fault Recovery of Distribution Network with Distributed Genaration
+## TLBO-FR4DN
+Teaching Learning Based Optimization Algorithm for Fault Recovery of Distribution Network with Distributed Genaration
 
 ## [Dataset:IEEE33-node system](IEEE33-node-system.md)
 - **Table 1**: IEEE33 node data
