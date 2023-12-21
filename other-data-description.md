@@ -25,8 +25,9 @@
 | 22:00  | 0.37         | 0.58    | 0.53    |
 | 23:00  | 0.35         | 0.56    | 0.35    |
 | 24:00  | 0.35         | 0.54    | 0.18    |
+
 ## Table 2: Node load recovery priority factor
-| Node Number | 13.00 | 19.00 |
+| Node Number | 13:00 | 19:00 |
 |-------------|-------|-------|
 | 1           | 1.74  | 7.4   |
 | 2           | 61.14 | 55.35 |
@@ -60,15 +61,17 @@
 | 30          | 61.14 | 55.35 |
 | 31          | 920   | 700.54|
 | 32          | 1.74  | 7.4   |
-## Table 3: Distributed power
+
+## Table 3: Distributed DG power
 | DG | Output Power (kW) |
 | -- | ----------------- |
 | 1  | 400               |
 | 2  | 600               |
 | 3  | 550               |
 | 4  | 750               |
-## Table 2: IEEE33  Two  different times load
-| node number |   13.00   |   19.00   |
+
+## Table 4: Node load at 13:00 and 19:00
+| Node Number |   13.00   |   19.00   |
 |-------------|-----------|-----------|
 | 1           | 100       | 100       |
 | 2           | 90        | 90        |
