@@ -5,7 +5,8 @@
   
 ------
 
-##  <span id="Table1">Table 1: Daily power demand of different types of loads</span> 
+##  <span id="Table1">Table 1: Daily power demand of different types of loads</span>
+
 | Time   | Government and Medical Load | Resident Load | Business Load |
 |--------|--------------|---------|---------|
 | 1:00   | 0.35         | 0.28    | 0.18    |
@@ -34,6 +35,7 @@
 | 24:00  | 0.35         | 0.54    | 0.18    |
 
 ##  <span id="Table2">Table 2: Node load recovery priority factor</span> 
+
 | Node Number | 13:00 | 19:00 |
 |-------------|-------|-------|
 | 1           | 1.74  | 7.4   |
@@ -70,6 +72,7 @@
 | 32          | 1.74  | 7.4   |
 
 ##  <span id="Table3">Table 3: Distributed DG power</span> 
+
 | DG | Output Power (kW) |
 | -- | ----------------- |
 | 1  | 400               |
@@ -78,6 +81,7 @@
 | 4  | 750               |
 
 ##  <span id="Table4">Table 4: Node load at 13:00 and 19:00</span> 
+
 | Node Number |   13.00   |   19.00   |
 |-------------|-----------|-----------|
 | 1           | 100       | 100       |
