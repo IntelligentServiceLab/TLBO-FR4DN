@@ -17,9 +17,12 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 ## Experimental Results
 ### Island division result at time period 13:00 
 <div align=center><img width="513" height="240" src="images/island division at 13.png"/></div>  
+
 ### Island division result at time period 19:00 
 <div align=center><img width="513" height="240" src="images/island division at 19.png"/></div>  
+
 ### Fault recovery scheme at time period 13:00 
 <div align=center><img width="513" height="240" src="images/recovery echeme at 13.png"/></div>  
+
 ### Fault recovery scheme at time period 19:00 
 <div align=center><img width="513" height="240" src="images/recovery echeme at 19.png"/></div>  
