@@ -14,7 +14,7 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 - **Table 3**: Distributed DG Power
 - **Table 4**: Node load at 13:00 and 19:00
 
-## Results
+## Experimental Results
 ### Island division result at time period 13:00 
 <div align=center><img width="513" height="240" src="images/island division at 13.png"/></div>  
 
