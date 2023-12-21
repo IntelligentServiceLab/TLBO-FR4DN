@@ -7,6 +7,7 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 - **Table 3**: IEEE33 node load
 
 <div align=left><img width="513" height="240" src="images/modified IEEE33-node system.png"/></div>  
+
 **Fig. 1** Modified IEEE33-node distribution system
 
 ## [Other Data Description](other-data-description.md)
