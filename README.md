@@ -13,6 +13,8 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 - **Table 2**: Node load recovery priority factor
 - **Table 3**: Distributed DG Power
 - **Table 4**: Node load at 13:00 and 19:00
+- **Table 5**: Node load type
+- **Table 6**: Importance level of node
 
 ## Experimental Results
 ### Island division result at time period 13:00 
