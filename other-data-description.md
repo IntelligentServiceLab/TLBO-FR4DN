@@ -1,12 +1,12 @@
 ## Contents
-- [**Table 1 Daily power demand of different types of loads**](#Table-1)
+- [**Table 1: Daily power demand of different types of loads**](#Table-1)
 - [**Table 2: Node load recovery priority factor**](#Table-2)
 - [**Table 3: Distributed DG Power**](#Table-3)
 - [**Table 4: Node load at 13:00 and 19:00**](#Table-4)
   
 ------
 
-##  <span id="Table-1">Table 1 Daily power demand of different types of loads</span>
+##  <span id="Table-1">Table 1: Daily power demand of different types of loads</span>
 
 | Time   | Government and Medical Load | Resident Load | Business Load |
 |--------|--------------|---------|---------|
