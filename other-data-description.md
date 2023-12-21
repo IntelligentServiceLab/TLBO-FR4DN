@@ -3,7 +3,7 @@
 - [**Table 2: Node load recovery priority factor**](#Table-2)
 - [**Table 3: Distributed DG Power**](#Table-3)
 - [**Table 4: Node load at 13:00 and 19:00**](#Table-4)
-  
+- [**Table 5: Node load type**](#Table-5)  
 ------
 
 ##  <span id="Table-1">Table 1: Daily power demand of different types of loads</span>
@@ -74,12 +74,12 @@
 
 ##  <span id="Table-3">Table 3: Distributed DG power</span> 
 
-| DG | Output Power (kW) |
-| -- | ----------------- |
-| 1  | 400               |
-| 2  | 600               |
-| 3  | 550               |
-| 4  | 750               |
+| Number | Access Point | Type  | DG Rated Capacity (kW) | Energy Storage Capacity (kWh) | Max Charge/Discharge Power (kW) |
+| ------ | ------------ | ----- | --------------------- | ----------------------------- | ------------------------------- |
+| DG1    | 6            | Solar | 400                   | 300                           | 80                              |
+| DG2    | 14           | Solar | 600                   | 400                           | 100                             |
+| DG3    | 22           | Wind  | 550                   | 350                           | 87.5                            |
+| DG4    | 31           | Wind  | 750                   | 500                           | 125                             |
 
 ##  <span id="Table-4">Table 4: Node load at 13:00 and 19:00</span> 
 
@@ -117,3 +117,11 @@
 | 30          | 150       | 120       |
 | 31          | 210       | 60        |
 | 32          | 60        | 60        |
+
+##  <span id="Table-5">Table 5: Node load type</span>
+| Load Type   | Node ID                                                                         |
+| ----------- | ------------------------------------------------------------------------------- |
+| Government  | 3, 22                                                                           |
+| Medical     | 6, 14, 31                                                                       |
+| Commercial  | 2, 4, 7, 10, 11, 13, 18, 21, 25, 29, 30                                         |
+| Residential | 1, 3, 5, 6, 8, 9, 12, 14, 15, 16, 17, 19，20，22，23，24，26，27，28，31，32      |
