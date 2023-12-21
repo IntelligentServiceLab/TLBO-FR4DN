@@ -8,6 +8,8 @@ More details can be refereed to [IEEE33-node system](IEEE33-node-system.md).
 ## [Other Data Description](other-data-description.md)
 - **Table 1**: Daily power demand of different types of loads
 - **Table 2**: Node load recovery priority factor
+- **Table 3**: Distributed DG Power
+- **Table 4**: Node load at 13:00 and 19:00
 
 ## Results
 ### Island division result at time period 13:00 
