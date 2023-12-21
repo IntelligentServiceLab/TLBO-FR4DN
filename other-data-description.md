@@ -3,7 +3,8 @@
 - [**Table 2: Node load recovery priority factor**](#Table-2)
 - [**Table 3: Distributed DG Power**](#Table-3)
 - [**Table 4: Node load at 13:00 and 19:00**](#Table-4)
-- [**Table 5: Node load type**](#Table-5)  
+- [**Table 5: Node load type**](#Table-5)
+- [**Table 6: Importance level of node**](#Table-6)
 ------
 
 ##  <span id="Table-1">Table 1: Daily power demand of different types of loads</span>
@@ -132,4 +133,4 @@
 |------------|--------------------------------------------|-------------|
 | Level 1    | 3, 6, 14, 22, 31                           | 100         |
 | Level 2    | 2, 5, 8, 12, 13, 16, 19, 21, 23, 28, 30    | 10          |
-| Level 3    | 1, 4, 7, 9, 10, 11, 15, 17, 18, 20, 24, 25, 26, 27, 29, 32         |             |
+| Level 3    | 1, 4, 7, 9, 10, 11, 15, 17, 18, 20, 24, 25, 26, 27, 29, 32         |      1       |
