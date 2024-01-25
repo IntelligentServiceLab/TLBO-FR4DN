@@ -17,6 +17,8 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 - **Table 6**: Importance level of node
 
 ## Use of Source Code
+### GA
+
 ### PSO
 
 ### TLBO
