@@ -18,11 +18,14 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 
 ## Use of Source Code
 ### GA
-
+- Input:
+- Output:
 ### PSO
-
+- Input:
+- Output:
 ### TLBO
-
+- Input:
+- Output:
 ## Experimental Results
 ### Island division result at time period 13:00 
 <div align=center><img width="513" height="240" src="images/island division at 13.png"/></div>  
