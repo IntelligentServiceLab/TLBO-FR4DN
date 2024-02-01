@@ -21,9 +21,11 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 island.py:该文件旨在对电网恢复策略第一阶段进行恢复，对电网进行孤岛划分;
 - Input:故障网络信息
 - Output:第一阶段恢复后的配电网
+  
 base_on_tulun.py:该文件旨在对无法实施的解决方案进行修正和改进，输出一个可行解，被pso.py所引用;
 - Input:不可行解
 - Output:一个可行解
+- 
 fitness.py:该文件旨在对电网的网络损耗目标函数进行计算，输出网络损耗，被pso.py所引用;
 - Input:配电网信息
 - Output:目标函数
