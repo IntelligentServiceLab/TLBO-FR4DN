@@ -19,42 +19,61 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 ## Use of Source Code
 ### GA
 island.py:该文件旨在对电网恢复策略第一阶段进行恢复，对电网进行孤岛划分;
-
+- Input:故障网络信息
+- Output:第一阶段恢复后的配电网
 base_on_tulun.py:该文件旨在对无法实施的解决方案进行修正和改进，输出一个可行解，被pso.py所引用;
-
+- Input:不可行解
+- Output:一个可行解
 fitness.py:该文件旨在对电网的网络损耗目标函数进行计算，输出网络损耗，被pso.py所引用;
-
+- Input:配电网信息
+- Output:目标函数
 ga.py:该文件旨在对电网进行遗传算法计算，得出最优解，主函数文件，调用其他文件;
-
+- Input:故障网络信息
+- Output:可行方案
 satisfy_condition.py:该文件旨在对电网进行一些约束条件，在电流电压和拓扑方面对电网进行约束，被pso.py所引用;
-
+- Input:配电网信息
+- Output:返回一个bool值
 x_solution.py:对故障电网计算，产生初始种群被pso.py所引用;
+- Input:配电网信息
+- Output:生产初始种群
 ### PSO
 island.py:该文件旨在对电网恢复策略第一阶段进行恢复，对电网进行孤岛划分;
-
+- Input:故障网络信息
+- Output:第一阶段恢复后的配电网
 base_on_tulun.py:该文件旨在对无法实施的解决方案进行修正和改进，输出一个可行解，被pso.py所引用;
-
+- Input:不可行解
+- Output:一个可行解
 fitness.py:该文件旨在对电网的网络损耗目标函数进行计算，输出网络损耗，被pso.py所引用;
-
+- Input:配电网信息
+- Output:目标函数
 pso.py:该文件旨在对电网进行粒子群算法计算，得出最优解，主函数文件，调用其他文件;
-
+- Input:故障网络信息
+- Output:可行方案
 satisfy_condition.py:该文件旨在对电网进行一些约束条件，在电流电压和拓扑方面对电网进行约束，被pso.py所引用;
-
+- Input:配电网信息
+- Output:返回一个bool值
 x_solution.py:对故障电网计算，产生初始种群被pso.py所引用;
+- Input:配电网信息
+- Output:生产初始种群
 ### TLBO
-- Input:
-- Output:
 island.py:该文件旨在对电网恢复策略第一阶段进行恢复，对电网进行孤岛划分;
-
+- Input:故障网络信息
+- Output:第一阶段恢复后的配电网
 base_on_tulun.py:该文件旨在对无法实施的解决方案进行修正和改进，输出一个可行解，被pso.py所引用;
-
+- Input:不可行解
+- Output:一个可行解
 fitness.py:该文件旨在对电网的网络损耗目标函数进行计算，输出网络损耗，被pso.py所引用;
-
+- Input:配电网信息
+- Output:目标函数
 main.py:该文件旨在对电网进行TLBO算法计算，得出最优解，主函数文件，调用其他文件;
-
+- Input:故障网络信息
+- Output:可行方案
 satisfy_condition.py:该文件旨在对电网进行一些约束条件，在电流电压和拓扑方面对电网进行约束，被pso.py所引用;
-
-x_solution.py:对故障电网计算，产生初始种群被pso.py锁引用;
+- Input:配电网信息
+- Output:返回一个bool值
+x_solution.py:对故障电网计算，产生初始种群被pso.py所引用;
+- Input:配电网信息
+- Output:生产初始种群
 ## Experimental Results
 ### Island division result at time period 13:00 
 <div align=center><img width="513" height="240" src="images/island division at 13.png"/></div>  
