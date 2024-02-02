@@ -18,10 +18,9 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 
 ## Use of Source Code
 ### GA
-
-island.py: This file aims to recover the first phase of power grid restoration strategy, and divide the power grid into islands;
-- Input: Fault network information
-- Output: Power grid after the first phase of restoration
+- island.py: This file aims to recover the first phase of power grid restoration strategy, and divide the power grid into islands;
+  - Input: Fault network information
+  - Output: Power grid after the first phase of restoration
 
 base_on_tulun.py: This file aims to modify and improve an infeasible solution, and output a feasible solution which is called by pso.py;
 - Input: Infeasible solution
