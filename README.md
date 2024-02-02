@@ -17,7 +17,7 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 - **Table 6**: Importance level of node
 
 ## Use of Source Code
-### GA
+### [GA](GA)
 - island.py
   - Function: This file aims to recover the first phase of power grid restoration strategy, and divide the power grid into islands.
   - Input: Fault network information
