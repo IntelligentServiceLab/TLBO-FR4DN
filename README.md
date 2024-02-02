@@ -18,78 +18,80 @@ Teaching Learning Based Optimization Algorithm for Fault Recovery of Distributio
 
 ## Use of Source Code
 ### GA
-island.py:该文件旨在对电网恢复策略第一阶段进行恢复，对电网进行孤岛划分;
-- Input:故障网络信息
-- Output:第一阶段恢复后的配电网
+
+island.py: This file aims to recover the first phase of power grid restoration strategy, and divide the power grid into islands;
+- Input: Fault network information
+- Output: Power grid after the first phase of restoration
+
+base_on_tulun.py: This file aims to modify and improve an infeasible solution, and output a feasible solution which is called by pso.py;
+- Input: Infeasible solution
+- Output: A feasible solution
   
-base_on_tulun.py:该文件旨在对无法实施的解决方案进行修正和改进，输出一个可行解，被pso.py所引用;
-- Input:不可行解
-- Output:一个可行解
+fitness.py: This file aims to calculate the network loss objective function of the power grid, and output the network loss, which is called by pso.py;
+- Input: Power grid information
+- Output: Objective function
+
+ga.py: This file aims to perform genetic algorithm calculation on the power grid to obtain the optimal solution. It is the main function file that calls other files;
+- Input: Fault network information
+- Output: Feasible solution
   
-fitness.py:该文件旨在对电网的网络损耗目标函数进行计算，输出网络损耗，被pso.py所引用;
-- Input:配电网信息
-- Output:目标函数
+satisfy_condition.py: This file aims to impose some constraint conditions on the power grid, and constrain the power grid in terms of current, voltage and topology. It is called by pso.py;
+- Input: Power grid information
+- Output: Returns a boolean value
   
-ga.py:该文件旨在对电网进行遗传算法计算，得出最优解，主函数文件，调用其他文件;
-- Input:故障网络信息
-- Output:可行方案
+x_solution.py: Calculates the initial population for the fault network and is called by pso.py;
+- Input: Power grid information
+- Output: Produces initial population
   
-satisfy_condition.py:该文件旨在对电网进行一些约束条件，在电流电压和拓扑方面对电网进行约束，被pso.py所引用;
-- Input:配电网信息
-- Output:返回一个bool值
-  
-x_solution.py:对故障电网计算，产生初始种群被pso.py所引用;
-- Input:配电网信息
-- Output:生产初始种群
 ### PSO
-island.py:该文件旨在对电网恢复策略第一阶段进行恢复，对电网进行孤岛划分;
-- Input:故障网络信息
-- Output:第一阶段恢复后的配电网
+island.py: This file aims to recover the first phase of power grid restoration strategy, and divide the power grid into islands;
+- Input: Fault network information
+- Output: Power grid after the first phase of restoration
+
+base_on_tulun.py: This file aims to modify and improve an infeasible solution, and output a feasible solution which is called by pso.py;
+- Input: Infeasible solution
+- Output: A feasible solution
   
-base_on_tulun.py:该文件旨在对无法实施的解决方案进行修正和改进，输出一个可行解，被pso.py所引用;
-- Input:不可行解
-- Output:一个可行解
+fitness.py: This file aims to calculate the network loss objective function of the power grid, and output the network loss, which is called by pso.py;
+- Input: Power grid information
+- Output: Objective function
+
+pso.py: This file aims to perform particle swarm algorithm calculation on the power grid to obtain the optimal solution. It is the main function file that calls other files;
+- Input: Fault network information
+- Output: Feasible solution
   
-fitness.py:该文件旨在对电网的网络损耗目标函数进行计算，输出网络损耗，被pso.py所引用;
-- Input:配电网信息
-- Output:目标函数
+satisfy_condition.py: This file aims to impose some constraint conditions on the power grid, and constrain the power grid in terms of current, voltage and topology. It is called by pso.py;
+- Input: Power grid information
+- Output: Returns a boolean value
   
-pso.py:该文件旨在对电网进行粒子群算法计算，得出最优解，主函数文件，调用其他文件;
-- Input:故障网络信息
-- Output:可行方案
-  
-satisfy_condition.py:该文件旨在对电网进行一些约束条件，在电流电压和拓扑方面对电网进行约束，被pso.py所引用;
-- Input:配电网信息
-- Output:返回一个bool值
-  
-x_solution.py:对故障电网计算，产生初始种群被pso.py所引用;
-- Input:配电网信息
-- Output:生产初始种群
+x_solution.py: Calculates the initial population for the fault network and is called by pso.py;
+- Input: Power grid information
+- Output: Produces initial population
   
 ### TLBO
-island.py:该文件旨在对电网恢复策略第一阶段进行恢复，对电网进行孤岛划分;
-- Input:故障网络信息
-- Output:第一阶段恢复后的配电网
+island.py: This file aims to recover the first phase of power grid restoration strategy, and divide the power grid into islands;
+- Input: Fault network information
+- Output: Power grid after the first phase of restoration
+
+base_on_tulun.py: This file aims to modify and improve an infeasible solution, and output a feasible solution which is called by pso.py;
+- Input: Infeasible solution
+- Output: A feasible solution
   
-base_on_tulun.py:该文件旨在对无法实施的解决方案进行修正和改进，输出一个可行解，被pso.py所引用;
-- Input:不可行解
-- Output:一个可行解
+fitness.py: This file aims to calculate the network loss objective function of the power grid, and output the network loss, which is called by pso.py;
+- Input: Power grid information
+- Output: Objective function
+
+main.py: This file aims to perform TLBO algorithm calculation on the power grid to obtain the optimal solution. It is the main function file that calls other files;
+- Input: Fault network information
+- Output: Feasible solution
   
-fitness.py:该文件旨在对电网的网络损耗目标函数进行计算，输出网络损耗，被pso.py所引用;
-- Input:配电网信息
-- Output:目标函数
+satisfy_condition.py: This file aims to impose some constraint conditions on the power grid, and constrain the power grid in terms of current, voltage and topology. It is called by pso.py;
+- Input: Power grid information
+- Output: Returns a boolean value
   
-main.py:该文件旨在对电网进行TLBO算法计算，得出最优解，主函数文件，调用其他文件;
-- Input:故障网络信息
-- Output:可行方案
-  
-satisfy_condition.py:该文件旨在对电网进行一些约束条件，在电流电压和拓扑方面对电网进行约束，被pso.py所引用;
-- Input:配电网信息
-- Output:返回一个bool值
-  
-x_solution.py:对故障电网计算，产生初始种群被pso.py所引用;
-- Input:配电网信息
-- Output:生产初始种群
+x_solution.py: Calculates the initial population for the fault network and is called by pso.py;
+- Input: Power grid information
+- Output: Produces initial population
   
 ## Experimental Results
 ### Island division result at time period 13:00 
